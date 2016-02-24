@@ -1,6 +1,6 @@
 # Conway's game_of_life
 This is [Conway's Game]  
-And my coding of the same  
+And my coding of the same;  
 Some may say its _lame_..  
 But I have no *Shame*!!
  

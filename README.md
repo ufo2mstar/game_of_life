@@ -1,6 +1,6 @@
 # Conway's game_of_life
 This is [Conway's Game]  
-And my coding of the same;  
+And my coding of the [same](http://www.bitstorm.org/gameoflife/);  
 Some may say its _lame_..  
 But I have no *Shame*!!
  

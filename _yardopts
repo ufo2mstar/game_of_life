@@ -1,0 +1,12 @@
+--title 'Game of Life!'
+--verbose
+--output-dir './Life_doc'
+
+--use-cache
+--protected
+--private
+
+#--exclude 'name'
+
+--tag 'claims:Used for the Claims Hack'
+--tag 'docusign:Used for Document signing'

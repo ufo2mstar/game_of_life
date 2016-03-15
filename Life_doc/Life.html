@@ -94,9 +94,7 @@
   
   
     <dt class="r2 last">Defined in:</dt>
-    <dd class="r2 last">life.rb<span class="defines">,<br />
-  life.rb</span>
-</dd>
+    <dd class="r2 last">life.rb</dd>
   
 </dl>
 <div class="clear"></div>
@@ -113,10 +111,10 @@
 </div>
 </div>
 
-<h2>Conway's Game of Life</h2>
+<h2 id="label-Conway-27s+Game+of+Life">Conway&#39;s Game of Life</h2>
 
-<p>Haha.. I've been meaning to implement this for a while now!! Finally got
-the chance to :) Hopefully we play the Game of Life well..</p>
+<p>Haha.. I&#39;ve been meaning to implement this for a while now!! Finally
+got the chance to :) Hopefully we play the Game of Life well..</p>
 
 <pre class="code ruby"><code class="ruby">PS: if only Real Life was this simple.. hmm.. maybe..
 at a molecular, atomic or at least at a quantum level, one might think..
@@ -179,8 +177,38 @@ href="https://github.com/ufo2mstar">github.com/ufo2mstar</a>)</p>
           <div class="docstring">
   <div class="discussion">
     
-<h2>Error Declarations</h2>
+<h2 id="label-Error+Declarations">Error Declarations</h2>
 
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>0.0.1 (<a href="http://semver.org">semver.org</a>)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='const'>Class</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='const'>StandardError</span><span class='rparen'>)</span></pre></dd>
+      
+        <dt id="OutOfBounds-constant" class="">OutOfBounds =
+          <div class="docstring">
+  <div class="discussion">
+    
 
   </div>
 </div>
@@ -243,36 +271,6 @@ href="https://github.com/ufo2mstar">github.com/ufo2mstar</a>)</p>
     
 <p>not used for now..</p>
 
-
-  </div>
-</div>
-<div class="tags">
-  
-<p class="tag_title">Since:</p>
-<ul class="since">
-  
-    <li>
-      
-      
-      
-      
-        
-        <div class='inline'>
-<p>0.0.1 (<a href="http://semver.org">semver.org</a>)</p>
-</div>
-      
-    </li>
-  
-</ul>
-
-</div>
-        </dt>
-        <dd><pre class="code"><span class='const'>Class</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='const'>StandardError</span><span class='rparen'>)</span></pre></dd>
-      
-        <dt id="OutOfBounds-constant" class="">OutOfBounds =
-          <div class="docstring">
-  <div class="discussion">
-    
 
   </div>
 </div>
@@ -464,7 +462,8 @@ href="https://github.com/ufo2mstar">github.com/ufo2mstar</a>)</p>
 
   
     <span class="summary_desc"><div class='inline'>
-<p>Evaluate the new state of the cell based on the Game's (Conway's) Laws!.</p>
+<p>Evaluate the new state of the cell based on the Game&#39;s (Conway&#39;s)
+Laws!.</p>
 </div></span>
   
 </li>
@@ -512,9 +511,9 @@ href="https://github.com/ufo2mstar">github.com/ufo2mstar</a>)</p>
 
   
     <span class="summary_desc"><div class='inline'>
-<p>Create Life!! send in arrays of 0's (dead) and 1's (live) of any size  
-Actions:   <span class='object_link'><a href="#print_state-instance_method" title="Life#print_state (method)">#print_state</a></span>s the current state of input setup (just for
-reference)   initializes the @life_grid.</p>
+<p>Create Life!! send in arrays of 0&#39;s (dead) and 1&#39;s (live) of any
+size   Actions:   <span class='object_link'><a href="#print_state-instance_method" title="Life#print_state (method)">#print_state</a></span>s the current state of input setup
+(just for reference)   initializes the @life_grid.</p>
 </div></span>
   
 </li>
@@ -546,28 +545,6 @@ reference)   initializes the @life_grid.</p>
 </li>
 
       
-        <li class="public ">
-  <span class="summary_signature">
-    
-      <a href="#next_instant-instance_method" title="#next_instant (instance method)">- (Object) <strong>next_instant</strong> </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-      
         <li class="protected ">
   <span class="summary_signature">
     
@@ -595,30 +572,6 @@ reference)   initializes the @life_grid.</p>
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#play-instance_method" title="#play (instance method)">- (Object) <strong>play</strong>(num_of_cycles = 5, sleep_interval = 0.5) </a>
-    
-
-    
-  </span>
-  
-  
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'>
-<h2>Play the Game call this method from your object to run the simulation.</h2>
-</div></span>
-  
-</li>
-
-      
-        <li class="public ">
-  <span class="summary_signature">
-    
       <a href="#play%21-instance_method" title="#play! (instance method)">- (Object) <strong>play!</strong>(num_of_cycles = 5, sleep_interval = 0.5) </a>
     
 
@@ -634,7 +587,7 @@ reference)   initializes the @life_grid.</p>
 
   
     <span class="summary_desc"><div class='inline'>
-<h2>Play the Game Call this method from your Life object to run the simulation Actions:   Clears the previous instant on the screen   Shows the current instant.</h2>
+<h2 id="label-Play+the+Game+Call+this+method+from+your+Life+object+to+run+the+simulation+Actions-3A+++Clears+the+previous+instant+on+the+screen+++Shows+the+current+instant.">Play the Game Call this method from your Life object to run the simulation Actions:   Clears the previous instant on the screen   Shows the current instant.</h2>
 </div></span>
   
 </li>
@@ -729,7 +682,8 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       
         &mdash;
         <div class='inline'>
-<p>cols,rows of the ‘grid_size’ of life.. (dubbed ‘life_size’ for fun :P )</p>
+<p>cols,rows of the &#39;grid_size&#39; of life.. (dubbed &#39;life_size&#39;
+for fun :P )</p>
 </div>
       
     </li>
@@ -777,17 +731,19 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       <pre class="lines">
 
 
+26
+27
+28
 29
-30
-31
-32</pre>
+30</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 29</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 26</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span> <span class='id identifier rubyid_life_size'>life_size</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='int'>8</span><span class='comma'>,</span> <span class='int'>6</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_alive_dead_symbols'>alive_dead_symbols</span> <span class='op'>=</span> <span class='qwords_beg'>%w[</span><span class='tstring_content'>o</span><span class='words_sep'> </span><span class='tstring_content'>-</span><span class='words_sep'>]</span>
   <span class='ivar'>@cols</span><span class='comma'>,</span> <span class='ivar'>@rows</span> <span class='op'>=</span> <span class='id identifier rubyid_life_size'>life_size</span>
   <span class='ivar'>@live</span><span class='comma'>,</span> <span class='ivar'>@dead</span> <span class='op'>=</span> <span class='id identifier rubyid_alive_dead_symbols'>alive_dead_symbols</span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Life Size (</span><span class='embexpr_beg'>#{</span><span class='ivar'>@rows</span><span class='embexpr_end'>}</span><span class='tstring_content'> rows, </span><span class='embexpr_beg'>#{</span><span class='ivar'>@cols</span><span class='embexpr_end'>}</span><span class='tstring_content'> cols).. [&#39;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@live</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39; are alive , &#39;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@dead</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39; are dead]</span><span class='tstring_end'>&quot;</span></span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -841,12 +797,12 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       <pre class="lines">
 
 
-23
-24
-25</pre>
+20
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 23</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 20</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_cols'>cols</span>
   <span class='ivar'>@cols</span>
@@ -898,12 +854,12 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       <pre class="lines">
 
 
-23
-24
-25</pre>
+20
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 23</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 20</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_dead'>dead</span>
   <span class='ivar'>@dead</span>
@@ -1012,12 +968,12 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       <pre class="lines">
 
 
-23
-24
-25</pre>
+20
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 23</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 20</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_live'>live</span>
   <span class='ivar'>@live</span>
@@ -1069,12 +1025,12 @@ Clears the previous instant on the screen   Shows the current instant.</p>
       <pre class="lines">
 
 
-23
-24
-25</pre>
+20
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 23</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 20</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_rows'>rows</span>
   <span class='ivar'>@rows</span>
@@ -1124,7 +1080,8 @@ by reproduction.</p>
   </div>
 
 
-<p>Evaluate the new state of the cell based on the Game's (Conway's) Laws!</p>
+<p>Evaluate the new state of the cell based on the Game&#39;s (Conway&#39;s)
+Laws!</p>
 
 
   </div>
@@ -1243,7 +1200,6 @@ not passed in the board</p>
       <pre class="lines">
 
 
-139
 140
 141
 142
@@ -1270,15 +1226,19 @@ not passed in the board</p>
 163
 164
 165
-166</pre>
+166
+167
+168
+169</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 139</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 140</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_check_life_of_cell'>check_life_of_cell</span> <span class='id identifier rubyid_i'>i</span><span class='comma'>,</span> <span class='id identifier rubyid_j'>j</span><span class='comma'>,</span> <span class='id identifier rubyid_grid'>grid</span>
   <span class='id identifier rubyid_live_count'>live_count</span>   <span class='op'>=</span> <span class='int'>0</span>
   <span class='id identifier rubyid_cell_state'>cell_state</span>   <span class='op'>=</span> <span class='kw'>nil</span>
   <span class='id identifier rubyid_offset_range'>offset_range</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='op'>-</span><span class='int'>1</span><span class='comma'>,</span> <span class='int'>0</span><span class='comma'>,</span> <span class='int'>1</span><span class='rbracket'>]</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>UnexpectedInput</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\nthe Check Grid is to be filled with wither &#39;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@live</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39; or &#39;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@dead</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39; only..\nbut got </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_grid'>grid</span><span class='embexpr_end'>}</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>unless</span> <span class='lparen'>(</span><span class='id identifier rubyid_grid'>grid</span><span class='period'>.</span><span class='id identifier rubyid_flatten'>flatten</span><span class='op'>-</span><span class='lbracket'>[</span><span class='ivar'>@live</span><span class='comma'>,</span> <span class='ivar'>@dead</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
   <span class='comment'># calculate live cell count (dead = 8-live)
 </span>  <span class='id identifier rubyid_offset_range'>offset_range</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_i_offset'>i_offset</span><span class='op'>|</span>
     <span class='id identifier rubyid_offset_range'>offset_range</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_j_offset'>j_offset</span><span class='op'>|</span>
@@ -1288,20 +1248,21 @@ not passed in the board</p>
       <span class='id identifier rubyid_live_count'>live_count</span><span class='op'>+=</span><span class='int'>1</span> <span class='kw'>if</span> <span class='id identifier rubyid_grid'>grid</span><span class='lbracket'>[</span><span class='id identifier rubyid_i_check'>i_check</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='id identifier rubyid_j_check'>j_check</span><span class='rbracket'>]</span> <span class='op'>==</span> <span class='ivar'>@live</span>
     <span class='rbrace'>}</span>
   <span class='rbrace'>}</span>
+
   <span class='comment'># Game Laws
-</span>  <span class='comment'># Any live cell with fewer than two live neighbours dies, as if caused by under-population.
-</span>  <span class='comment'># Any live cell with two or three live neighbours lives on to the next generation.
-</span>  <span class='comment'># Any live cell with more than three live neighbours dies, as if by over-population.
-</span>  <span class='comment'># Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 </span>  <span class='kw'>case</span> <span class='id identifier rubyid_cell_state'>cell_state</span>
     <span class='kw'>when</span> <span class='ivar'>@live</span>
-      <span class='kw'>return</span> <span class='kw'>true</span> <span class='kw'>if</span> <span class='lbracket'>[</span><span class='int'>2</span><span class='comma'>,</span> <span class='int'>3</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span> <span class='id identifier rubyid_live_count'>live_count</span>
+      <span class='comment'># Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+</span>      <span class='comment'># Any live cell with two or three live neighbours lives on to the next generation.
+</span>      <span class='comment'># Any live cell with more than three live neighbours dies, as if by over-population.
+</span>      <span class='kw'>return</span> <span class='kw'>true</span> <span class='kw'>if</span> <span class='lbracket'>[</span><span class='int'>2</span><span class='comma'>,</span> <span class='int'>3</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span> <span class='id identifier rubyid_live_count'>live_count</span>
     <span class='kw'>when</span> <span class='ivar'>@dead</span>
-      <span class='kw'>return</span> <span class='kw'>true</span> <span class='kw'>if</span> <span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span> <span class='id identifier rubyid_live_count'>live_count</span>
+      <span class='comment'># Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+</span>      <span class='kw'>return</span> <span class='kw'>true</span> <span class='kw'>if</span> <span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span> <span class='id identifier rubyid_live_count'>live_count</span>
     <span class='kw'>else</span>
-      <span class='id identifier rubyid_raise'>raise</span> <span class='const'>UnexpectedInput</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\ncell_state is to be '</span><span class='embexpr_beg'>#{</span><span class='ivar'>@live</span><span class='rbrace'>}</span><span class='tstring_content'>' or '</span><span class='embexpr_beg'>#{</span><span class='ivar'>@dead</span><span class='rbrace'>}</span><span class='tstring_content'>' only..\nbut got </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_cell_state'>cell_state</span><span class='rbrace'>}</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span>
+      <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Should never get here</span><span class='tstring_end'>&quot;</span></span>
   <span class='kw'>end</span>
-  <span class='kw'>false</span> <span class='comment'># handles all the 'dies' cases
+  <span class='kw'>false</span> <span class='comment'># handles all the &#39;dies&#39; cases
 </span><span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -1408,7 +1369,6 @@ for future transitions</p>
       <pre class="lines">
 
 
-108
 109
 110
 111
@@ -1430,23 +1390,22 @@ for future transitions</p>
 127</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 108</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 109</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_create_game_board'>create_game_board</span> <span class='id identifier rubyid_input_life_grid'>input_life_grid</span>
   <span class='comment'># creating all dead game board (@rows x @cols)
 </span>  <span class='id identifier rubyid_game_board'>game_board</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
   <span class='ivar'>@rows</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span> <span class='id identifier rubyid_game_board'>game_board</span><span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='const'>Array</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span> <span class='ivar'>@cols</span><span class='comma'>,</span> <span class='ivar'>@dead</span> <span class='rbrace'>}</span>
-  <span class='comment'># @rows.times { |i| game_board[i] = Array.new @cols }
-</span>
   <span class='comment'># initializing input state
 </span>  <span class='id identifier rubyid_input_life_grid'>input_life_grid</span><span class='period'>.</span><span class='id identifier rubyid_each_with_index'>each_with_index</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_row'>row</span><span class='comma'>,</span> <span class='id identifier rubyid_i'>i</span><span class='op'>|</span>
     <span class='id identifier rubyid_row'>row</span><span class='period'>.</span><span class='id identifier rubyid_each_with_index'>each_with_index</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_col_elem'>col_elem</span><span class='comma'>,</span> <span class='id identifier rubyid_j'>j</span><span class='op'>|</span>
       <span class='kw'>begin</span>
+        <span class='id identifier rubyid_raise'>raise</span> <span class='kw'>if</span> <span class='id identifier rubyid_i'>i</span> <span class='op'>&gt;</span> <span class='ivar'>@rows</span> <span class='kw'>or</span> <span class='id identifier rubyid_j'>j</span> <span class='op'>&gt;</span> <span class='ivar'>@cols</span>
         <span class='id identifier rubyid_game_board'>game_board</span><span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='id identifier rubyid_j'>j</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='lparen'>(</span><span class='id identifier rubyid_col_elem'>col_elem</span> <span class='op'>==</span> <span class='int'>1</span> <span class='op'>?</span> <span class='ivar'>@live</span> <span class='op'>:</span> <span class='ivar'>@dead</span><span class='rparen'>)</span>
       <span class='kw'>rescue</span> <span class='const'>Exception</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_e'>e</span>
-        <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\nIs your init condition going out of the bounds?
-game_board is only (</span><span class='embexpr_beg'>#{</span><span class='ivar'>@rows</span><span class='rbrace'>}</span><span class='tstring_content'>,</span><span class='embexpr_beg'>#{</span><span class='ivar'>@cols</span><span class='rbrace'>}</span><span class='tstring_content'>) large..
-you are trying to access (</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='rbrace'>}</span><span class='tstring_content'>,</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_j'>j</span><span class='rbrace'>}</span><span class='tstring_content'>)</span><span class='tstring_end'>&quot;</span></span>
+        <span class='id identifier rubyid_raise'>raise</span> <span class='const'>OutOfBounds</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\nIs your init condition going out of the bounds?
+game_board is only (</span><span class='embexpr_beg'>#{</span><span class='ivar'>@rows</span><span class='embexpr_end'>}</span><span class='tstring_content'>,</span><span class='embexpr_beg'>#{</span><span class='ivar'>@cols</span><span class='embexpr_end'>}</span><span class='tstring_content'>) large..
+you are trying to access (</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='embexpr_end'>}</span><span class='tstring_content'>,</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_j'>j</span><span class='embexpr_end'>}</span><span class='tstring_content'>)</span><span class='tstring_end'>&quot;</span></span>
       <span class='kw'>end</span>
     <span class='rbrace'>}</span>
   <span class='rbrace'>}</span>
@@ -1477,7 +1436,8 @@ you are trying to access (</span><span class='embexpr_beg'>#{</span><span class=
   </div>
 
 
-<p>Create Life!! send in arrays of 0's (dead) and 1's (live) of any size</p>
+<p>Create Life!! send in arrays of 0&#39;s (dead) and 1&#39;s (live) of any
+size</p>
 
 <pre class="code ruby"><code class="ruby">Actions:
 {Life#print_state}s the current state of input setup (just for reference)
@@ -1501,8 +1461,8 @@ initializes the @life_grid</code></pre>
       
         &mdash;
         <div class='inline'>
-<p>input state with 0’s representing dead cells and 1’s representing alive
-cells</p>
+<p>input state with 0&#39;s representing dead cells and 1&#39;s representing
+alive cells</p>
 </div>
       
     </li>
@@ -1532,74 +1492,19 @@ cells</p>
       <pre class="lines">
 
 
-42
-43
 44
 45
-46</pre>
+46
+47
+48</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 42</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 44</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_init'>init</span> <span class='id identifier rubyid_life_grid'>life_grid</span>
-  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>This is the init setup:</span><span class='tstring_end'>'</span></span>
+  <span class='const'>Log</span><span class='period'>.</span><span class='id identifier rubyid_info'>info</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>This is the init setup:</span><span class='tstring_end'>&#39;</span></span>
   <span class='id identifier rubyid_print_state'>print_state</span> <span class='id identifier rubyid_life_grid'>life_grid</span>
   <span class='ivar'>@life_grid</span> <span class='op'>=</span> <span class='id identifier rubyid_create_game_board'>create_game_board</span> <span class='id identifier rubyid_life_grid'>life_grid</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
-  <h3 class="signature " id="next_instant-instance_method">
-  
-    - (<tt>Object</tt>) <strong>next_instant</strong> 
-  
-
-  
-
-  
-</h3><div class="docstring">
-  <div class="discussion">
-    
-
-  </div>
-</div>
-<div class="tags">
-  
-<p class="tag_title">Since:</p>
-<ul class="since">
-  
-    <li>
-      
-      
-      
-      
-        
-        <div class='inline'>
-<p>0.0.1 (<a href="http://semver.org">semver.org</a>/)</p>
-</div>
-      
-    </li>
-  
-</ul>
-
-</div><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-43
-44
-45</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 43</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_next_instant'>next_instant</span>
-
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -1686,20 +1591,20 @@ cells</p>
       <pre class="lines">
 
 
-77
-78
-79
-80
-81
-82
-83
 84
 85
 86
-87</pre>
+87
+88
+89
+90
+91
+92
+93
+94</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 77</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 84</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_next_state'>next_state</span> <span class='id identifier rubyid_current_state'>current_state</span>
   <span class='id identifier rubyid_next_state_grid'>next_state_grid</span>   <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
@@ -1711,109 +1616,6 @@ cells</p>
     <span class='rbrace'>}</span>
   <span class='rbrace'>}</span>
   <span class='id identifier rubyid_next_state_grid'>next_state_grid</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      <div class="method_details ">
-  <h3 class="signature " id="play-instance_method">
-  
-    - (<tt>Object</tt>) <strong>play</strong>(num_of_cycles = 5, sleep_interval = 0.5) 
-  
-
-  
-
-  
-</h3><div class="docstring">
-  <div class="discussion">
-    
-  <div class="note notetag">
-    <strong>Note:</strong>
-    <div class='inline'>
-<p>make sure you have initialized the @life_grid using <span class='object_link'><a href="#init-instance_method" title="Life#init (method)">#init</a></span></p>
-</div>
-  </div>
-
-
-<h2>Play the Game</h2>
-
-<p>call this method from your object to run the simulation</p>
-
-
-  </div>
-</div>
-<div class="tags">
-  <p class="tag_title">Parameters:</p>
-<ul class="param">
-  
-    <li>
-      
-        <span class='name'>num_of_cycles</span>
-      
-      
-        <span class='type'>(<tt>Integer</tt>)</span>
-      
-      
-        <em class="default">(defaults to: <tt>5</tt>)</em>
-      
-      
-        &mdash;
-        <div class='inline'>
-<p>number of game cycles you want to run</p>
-</div>
-      
-    </li>
-  
-</ul>
-
-<p class="tag_title">Since:</p>
-<ul class="since">
-  
-    <li>
-      
-      
-      
-      
-        
-        <div class='inline'>
-<p>0.0.1 (<a href="http://semver.org">semver.org</a>)</p>
-</div>
-      
-    </li>
-  
-</ul>
-
-</div><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 64</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_play'>play</span> <span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span> <span class='op'>=</span> <span class='int'>5</span><span class='comma'>,</span> <span class='id identifier rubyid_sleep_interval'>sleep_interval</span> <span class='op'>=</span> <span class='float'>0.5</span>
-  <span class='id identifier rubyid_show'>show</span>
-  <span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span>
-    <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Itr: </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='op'>+</span><span class='int'>1</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
-    <span class='ivar'>@life_grid</span> <span class='op'>=</span> <span class='id identifier rubyid_next_state'>next_state</span> <span class='ivar'>@life_grid</span>
-    <span class='id identifier rubyid_show'>show</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clear</span><span class='tstring_end'>&quot;</span></span> <span class='comment'># todo: figure out a good way to sys clear!
-</span>    <span class='id identifier rubyid_sleep'>sleep</span> <span class='id identifier rubyid_sleep_interval'>sleep_interval</span>
-  <span class='rbrace'>}</span>
-  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>End of game: after </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span><span class='rbrace'>}</span><span class='tstring_content'> cycles\n</span><span class='tstring_end'>&quot;</span></span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -1840,12 +1642,13 @@ cells</p>
   </div>
 
 
-<h2>Play the Game</h2>
+<h2 id="label-Play+the+Game">Play the Game</h2>
 
 <p>Call this method from your Life object to run the simulation Actions:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='const'>Clears</span> <span class='id identifier rubyid_the'>the</span> <span class='id identifier rubyid_previous'>previous</span> <span class='id identifier rubyid_instant'>instant</span> <span class='id identifier rubyid_on'>on</span> <span class='id identifier rubyid_the'>the</span> <span class='id identifier rubyid_screen'>screen</span>
-<span class='const'>Shows</span> <span class='id identifier rubyid_the'>the</span> <span class='id identifier rubyid_current'>current</span> <span class='id identifier rubyid_instant'>instant</span></code></pre>
+<span class='const'>Shows</span> <span class='id identifier rubyid_the'>the</span> <span class='id identifier rubyid_current'>current</span> <span class='id identifier rubyid_instant'>instant</span>
+</code></pre>
 
 
   </div>
@@ -1897,7 +1700,6 @@ cells</p>
       <pre class="lines">
 
 
-68
 69
 70
 71
@@ -1906,20 +1708,21 @@ cells</p>
 74
 75
 76
-77</pre>
+77
+78</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 68</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 69</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_play!'>play!</span> <span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span> <span class='op'>=</span> <span class='int'>5</span><span class='comma'>,</span> <span class='id identifier rubyid_sleep_interval'>sleep_interval</span> <span class='op'>=</span> <span class='float'>0.5</span>
   <span class='id identifier rubyid_show'>show</span>
   <span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span>
-    <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Itr: </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='op'>+</span><span class='int'>1</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Itr: </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='op'>+</span><span class='int'>1</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
     <span class='ivar'>@life_grid</span> <span class='op'>=</span> <span class='id identifier rubyid_next_state'>next_state</span> <span class='ivar'>@life_grid</span>
     <span class='id identifier rubyid_show'>show</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clear</span><span class='tstring_end'>&quot;</span></span> <span class='comment'># todo: figure out a good way to sys clear!
 </span>    <span class='id identifier rubyid_sleep'>sleep</span> <span class='id identifier rubyid_sleep_interval'>sleep_interval</span>
   <span class='rbrace'>}</span>
-  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>End of game: after </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span><span class='rbrace'>}</span><span class='tstring_content'> cycles\n</span><span class='tstring_end'>&quot;</span></span>
+  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>End of game: after </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_num_of_cycles'>num_of_cycles</span><span class='embexpr_end'>}</span><span class='tstring_content'> cycles\n\n</span><span class='tstring_end'>&quot;</span></span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -2006,15 +1809,15 @@ cells</p>
       <pre class="lines">
 
 
-91
-92
-93</pre>
+99
+100
+101</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 91</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 99</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_print_state'>print_state</span> <span class='id identifier rubyid_current_state'>current_state</span>
-  <span class='id identifier rubyid_current_state'>current_state</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_row'>row</span><span class='op'>|</span> <span class='id identifier rubyid_row'>row</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_col_elem'>col_elem</span><span class='op'>|</span> <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_col_elem'>col_elem</span><span class='rbrace'>}</span><span class='tstring_content'>  </span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='semicolon'>;</span> <span class='id identifier rubyid_puts'>puts</span> <span class='rbrace'>}</span>
+  <span class='id identifier rubyid_current_state'>current_state</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_row'>row</span><span class='op'>|</span> <span class='id identifier rubyid_row'>row</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_col_elem'>col_elem</span><span class='op'>|</span> <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_col_elem'>col_elem</span><span class='embexpr_end'>}</span><span class='tstring_content'>  </span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='semicolon'>;</span> <span class='id identifier rubyid_puts'>puts</span> <span class='rbrace'>}</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -2080,15 +1883,21 @@ Shows the current instant</code></pre>
       <pre class="lines">
 
 
-39
-40
-41</pre>
+55
+56
+57
+58
+59
+60</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'life.rb', line 39</span>
+      <pre class="code"><span class="info file"># File 'life.rb', line 55</span>
 
-<span class='kw'>def</span> <span class='id identifier rubyid_show'>show</span>
-
+<span class='kw'>def</span> <span class='id identifier rubyid_show'>show</span> <span class='id identifier rubyid_clear_screen'>clear_screen</span> <span class='op'>=</span> <span class='kw'>nil</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>UnInitedState</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Please init Life!</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>unless</span> <span class='ivar'>@life_grid</span>
+  <span class='comment'># system(&#39;clear&#39;) if clear_screen
+</span>  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Showing current state:</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>unless</span> <span class='id identifier rubyid_clear_screen'>clear_screen</span>
+  <span class='id identifier rubyid_print_state'>print_state</span> <span class='ivar'>@life_grid</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -2100,9 +1909,9 @@ Shows the current instant</code></pre>
 </div>
 
     <div id="footer">
-  Generated on Wed Feb 10 12:48:58 2016 by
+  Generated on Tue Mar 15 04:03:36 2016 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.8.7.6 (ruby-1.9.3).
+  0.8.7.6 (ruby-2.2.4).
 </div>
 
   </body>

@@ -1,0 +1,17 @@
+--title 'Game of Life!'
+--verbose
+--output-dir './Life_doc'
+
+#--use-cache
+--protected
+--private
+
+#--exclude 'name'
+
+--tag 'try: see what comes'
+
+-
+README.md
+CHANGELOG.md
+LICENSE
+LEGAL
